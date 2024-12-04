@@ -1,0 +1,78 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Anke Devanagari', sans-serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ebebeb;
+  border-radius: 15px;
+  box-shadow: 0 10px 5px rgba(0, 50, 0, 0.1);
+  min-height: 150px;
+  margin: 10px;
+}
+
+.main-card {
+  text-align: center;
+  max-width: 800px; 
+  width: 100%; 
+  margin: 0 auto 20px; 
+}
+
+
+.main-card img {
+  width: 120px; 
+  height: auto; 
+  margin: 0 auto 10px; 
+}
+
+.cards {
+  display: flex; 
+  flex-wrap: nowrap; 
+  justify-content: space-between;
+}
+
+.cards .card img {
+  width: 100px; 
+  margin-left: 10px;
+}
+
+.cards .card {
+  flex: 1; 
+  max-width: 400px; 
+  }
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-card:hover img {
+  animation: rotate 1s ease-in-out; 
+}
