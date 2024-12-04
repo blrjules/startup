@@ -1,0 +1,29 @@
+/* components/button.css */
+.button {
+  background-color: #007bff; /* Couleur primaire */
+  color: white; /* Couleur du texte */
+  padding: 10px 20px; /* Espacement interne */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Changement du curseur sur le survol */
+  transition: background-color 0.3s; /* Animation au survol */
+}
+
+.button:hover {
+  background-color: #2E1760; /* Couleur au survol */
+}
+
+.btn-blue {
+  background-color: #007bff; /* Couleur bleue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none; /* Enlève le soulignement */
+}
+
+.btn-blue:hover {
+  background-color: #2E1760; /* Couleur plus foncée au survol */
+}

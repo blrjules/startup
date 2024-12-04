@@ -1,0 +1,7 @@
+/* components/avatar.css */
+.avatar {
+  width: 100px; /* Largeur de l'avatar */
+  height: 100px; /* Hauteur de l'avatar */
+  border-radius: 50%; /* Rendre l'avatar circulaire */
+  border: 2px solid #ccc; /* Bordure autour de l'avatar */
+}
